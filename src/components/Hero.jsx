@@ -4,16 +4,19 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={` flex items-center flex-col mt-10 justify-center w-full h-screen mx-auto`}>
+      <div>
+        <img
+          src={require("../assets/IMG.jpg")}
+          className="w-[200px] h-200px] rounded-full border-4 border-yellow-500"
+        />
+      </div>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={` inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
-        <div>
-          <img src={require('../assets/IMG.jpg')} className="w-[400px] h-400px] rounded-full border-4 border-yellow-500" />
         </div>
 
         <div>
