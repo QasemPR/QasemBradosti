@@ -18,8 +18,11 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <About />
-        <Experience />
+        <div className="mt-[190px]" >
+          <About />
+          <Experience />
+        </div>
+
         <div>
           <h1 id="skills" className="text-center font-bold text-3xl mt-10">
             Skills
