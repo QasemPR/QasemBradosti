@@ -18,7 +18,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <div className="mt-[80px]" >
+        <div>
           <About />
           <Experience />
         </div>

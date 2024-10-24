@@ -7,6 +7,7 @@ const Hero = () => {
       <div>
         <img
           src={require("../assets/IMG.jpg")}
+          alt="!"
           className="w-[200px] h-200px]  rounded-full border-4 mt-[120px]  border-yellow-500"
         />
       </div>
@@ -25,13 +26,13 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Im Full Stack Developer <br className="sm:block hidden" />
           </p>
-          <ul style={{ listStyleType: "revert", margin: 20 ,marginLeft:50}}>
+          <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 50 }}>
             <li>Mobile Application</li>
             <li>Web Application</li>
             <li>Managment Systems</li>
           </ul>
           <h1>And I Speaking</h1>
-          <ul style={{ listStyleType: "revert", margin: 20 ,marginLeft:50}}>
+          <ul style={{ listStyleType: "revert", margin: 20, marginLeft: 50 }}>
             <li>Kurdish</li>
             <li>Arabic</li>
             <li>English</li>

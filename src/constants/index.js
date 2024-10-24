@@ -1,9 +1,7 @@
-import { title } from "framer-motion/client";
 import {
   mobile,
   backend,
   creator,
-  web,
   javascript,
   html,
   css,
