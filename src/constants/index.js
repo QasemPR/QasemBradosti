@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -14,15 +13,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -123,10 +118,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2019 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have experience in technology and troubleshooting mobile hardware and software issues , and I worked in my mobile store (Sardam For Mobile) in Sidakan - Soran."
     ],
   },
   {
@@ -136,10 +128,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Im Worked in This center in Soran , specializes in repairing mobile phones and computers, including tasks such as formatting, data restoration,and repairing hardware components",
     ],
   },
 ];
@@ -196,7 +185,7 @@ const projects = [
   {
     name: "Food Delivary App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This Appliction is using for food delivary",
     tags: [
       {
         name: "react Native",

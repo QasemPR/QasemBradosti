@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -74,6 +73,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <h1 style={{fontSize:18 ,fontWeight:'bold'}}>📞- 07507265615</h1>
+        <h1 style={{fontSize:18 ,fontWeight:'bold'}}>📧 - Qasem.najim@gmail.com</h1>
 
         <form
           ref={formRef}
