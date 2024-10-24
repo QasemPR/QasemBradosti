@@ -6,10 +6,23 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
+    <div className="flex flex-row flex-wrap justify-center gap-10">
       {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
+        <div className='hover:scale-105 transition-all bg-gray-200' style={{borderWidth:1,padding:5,borderRadius:10}} >
+          <div
+            className="w-28 h-28"
+            style={{ display: "grid", placeItems: "center" }}
+            key={technology.name}
+          >
+            <img
+              src={technology.icon}
+              style={{ height: 70, width: 70 }}
+              alt="!"
+            />
+            <p style={{ textAlign: "center", fontWeight: "bold" ,color:'black'}}>
+              {technology.name}
+            </p>
+          </div>
         </div>
       ))}
     </div>
