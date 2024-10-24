@@ -4,11 +4,11 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className={` flex items-center flex-col mt-10 justify-center w-full h-screen mx-auto`}>
+    <section className={` flex items-center flex-col justify-center w-full h-screen mx-auto`}>
       <div>
         <img
           src={require("../assets/IMG.jpg")}
-          className="w-[200px] h-200px] rounded-full border-4 border-yellow-500"
+          className="w-[200px] h-200px] rounded-full border-4 mt-[200px] border-yellow-500"
         />
       </div>
       <div
