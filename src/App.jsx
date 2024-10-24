@@ -21,7 +21,9 @@ const App = () => {
         <About />
         <Experience />
         <div>
-          <h1 className="text-center font-bold text-3xl mt-10" >Skills</h1>
+          <h1 id="skills" className="text-center font-bold text-3xl mt-10">
+            Skills
+          </h1>
         </div>
         <Tech />
         <Works />

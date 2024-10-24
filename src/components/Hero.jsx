@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -8,7 +7,7 @@ const Hero = () => {
       <div>
         <img
           src={require("../assets/IMG.jpg")}
-          className="w-[200px] h-200px] rounded-full border-4 mt-[200px] border-yellow-500"
+          className="w-[200px] h-200px] max-[768px]:w-[100px] max-[768px]:h-[100px] rounded-full border-4 mt-[140px] border-yellow-500"
         />
       </div>
       <div
@@ -21,15 +20,21 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Qasem Bradosti</span>
+            Hi , I'm <span className="text-[#915EFF]">Qasem Bradosti</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Im Full Stack Developer <br className="sm:block hidden" />
           </p>
-          <ul style={{ listStyleType: "revert", margin: 20 }}>
+          <ul style={{ listStyleType: "revert", margin: 20 ,marginLeft:50}}>
             <li>Mobile Application</li>
             <li>Web Application</li>
             <li>Managment Systems</li>
+          </ul>
+          <h1>And I Speaking</h1>
+          <ul style={{ listStyleType: "revert", margin: 20 ,marginLeft:50}}>
+            <li>Kurdish</li>
+            <li>Arabic</li>
+            <li>English</li>
           </ul>
         </div>
       </div>

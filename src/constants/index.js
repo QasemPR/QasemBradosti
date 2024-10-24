@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -18,14 +19,14 @@ import {
   shopify,
   jobit,
   tripguide,
-  word ,
-  excel, 
+  word,
+  excel,
   powerpoint,
   access,
   cpp,
   csharp,
   sql,
-  firebase
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +42,10 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "skills",
+    title: "Skills",
+  }
 ];
 
 const services = [
@@ -135,7 +140,6 @@ const technologies = [
     name: "aceess",
     icon: access,
   },
-
 ];
 
 const experiences = [
@@ -159,7 +163,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2019 - Feb 2021",
     points: [
-      "I have experience in technology and troubleshooting mobile hardware and software issues , and I worked in my mobile store (Sardam For Mobile) in Sidakan - Soran."
+      "I have experience in technology and troubleshooting mobile hardware and software issues , and I worked in my mobile store (Sardam For Mobile) in Sidakan - Soran.",
     ],
   },
   {
@@ -173,7 +177,6 @@ const experiences = [
     ],
   },
 ];
-
 
 const projects = [
   {
@@ -199,8 +202,7 @@ const projects = [
   },
   {
     name: "Food Delivary App",
-    description:
-      "This Appliction is using for food delivary",
+    description: "This Appliction is using for food delivary",
     tags: [
       {
         name: "react Native",
