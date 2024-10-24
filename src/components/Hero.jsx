@@ -7,7 +7,7 @@ const Hero = () => {
       <div>
         <img
           src={require("../assets/IMG.jpg")}
-          className="w-[200px] h-200px]  rounded-full border-4 mt-[140px] border-yellow-500"
+          className="w-[200px] h-200px]  rounded-full border-4 mt-[120px]  border-yellow-500"
         />
       </div>
       <div
