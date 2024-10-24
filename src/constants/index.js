@@ -18,6 +18,14 @@ import {
   shopify,
   jobit,
   tripguide,
+  word ,
+  excel, 
+  powerpoint,
+  access,
+  cpp,
+  csharp,
+  sql,
+  firebase
 } from "../assets";
 
 export const navLinks = [
@@ -56,15 +64,23 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "Html",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "Css",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "Java Script",
     icon: javascript,
   },
   {
@@ -88,13 +104,38 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Sql",
+    icon: sql,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
+  {
+    name: "Word",
+    icon: word,
+  },
+  {
+    name: "Excel",
+    icon: excel,
+  },
+  {
+    name: "Power Point",
+    icon: powerpoint,
+  },
+  {
+    name: "aceess",
+    icon: access,
+  },
+
 ];
 
 const experiences = [
