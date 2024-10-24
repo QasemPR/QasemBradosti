@@ -3,7 +3,7 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className={` flex items-center flex-col justify-center w-full h-screen mx-auto`}>
+    <section className={` flex items-center flex-col w-full h-screen mx-auto`}>
       <div>
         <img
           src={require("../assets/IMG.jpg")}
