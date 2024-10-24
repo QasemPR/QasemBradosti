@@ -5,7 +5,7 @@ import { technologies } from "../constants";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-10 border-2 border-white rounded-3xl ">
+    <div className="flex flex-row flex-wrap justify-center gap-10 border-2 py-10 border-white rounded-3xl ">
       {technologies.map((technology) => (
         <div className='hover:scale-105 shadow-lg transition-all bg-white' style={{borderWidth:1,padding:5,borderRadius:10}} >
           <div
