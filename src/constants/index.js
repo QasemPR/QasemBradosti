@@ -12,9 +12,6 @@ import {
   mongodb,
   git,
   figma,
-  starbucks,
-  tesla,
-  shopify,
   jobit,
   tripguide,
   word,
@@ -25,16 +22,19 @@ import {
   csharp,
   sql,
   firebase,
+  arabic,
+  kurdish,
+  english
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "About me",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -42,8 +42,12 @@ export const navLinks = [
   },
   {
     id: "skills",
-    title: "Skills",
+    title: "Computer Skills",
   },
+  {
+    id:'languages',
+    title:'Language Skills'
+  }
 ];
 
 const services = [
@@ -135,6 +139,21 @@ const technologies = [
     icon: access,
   },
 ];
+
+const languages = [
+  {
+    name:'Kurdish',
+    icon:kurdish
+  },
+  {
+    name:'English',
+    icon:english
+  },
+  {
+    name:'Arabic',
+    icon:arabic
+  }
+]
 
 const experiences = [
   {
@@ -230,4 +249,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects,languages };

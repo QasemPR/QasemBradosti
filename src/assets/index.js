@@ -37,6 +37,10 @@ import excel from "./tech/excel.png";
 import access from "./tech/access.png";
 import powerpoint from "./tech/powerpoint.png";
 
+import arabic from './arabic.png'
+import kurdish from './kurdish.png'
+import english from './english.png'
+
 export {
   logo,
   backend,
@@ -56,10 +60,7 @@ export {
   reactjs,
   redux,
   tailwind,
-  meta,
-  shopify,
   starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -71,4 +72,7 @@ export {
   excel,
   access,
   powerpoint,
+  arabic,
+  kurdish ,
+  english
 };

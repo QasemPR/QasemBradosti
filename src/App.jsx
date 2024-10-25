@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
 } from "./components";
+import Language from "./components/Language";
 
 const App = () => {
   return (
@@ -23,12 +24,18 @@ const App = () => {
           <Experience />
         </div>
 
-        <div>
-          <h1 id="skills" className="text-center font-bold text-3xl mt-10">
-            Skills
+        <div className="flex flex-col gap-6">
+          <h1 id="skills" className="text-center font-bold text-3xl">
+            Computer Skills
           </h1>
+          <Tech />
         </div>
-        <Tech />
+        <div className="flex flex-col gap-6">
+        <h1 id="languages" className="text-center font-bold text-3xl mt-10">
+            Language Skills
+          </h1>
+          <Language/>
+        </div>
         <Works />
         <div className="relative z-0">
           <Contact />
